@@ -80,7 +80,7 @@ curl --location 'http://localhost:8080/customers' \
 - **GET** `/products`: Retrieves all products.
 ---
 
-## 🛠️ install sonarqube and create the proyect bbva-challenge, then run this command to see the analisis: (modifying the token)
+## 🛠️ install sonarqube and create the proyect bbva-challenge, then run this command to see the analysis: (modifying the token)
 ```
 mvn clean verify sonar:sonar   -Dsonar.projectKey=bbva-challenge   -Dsonar.projectName='bbva-challenge'   -Dsonar.host.url=http://localhost:9000   -Dsonar.token=sqp_2bf7a64b81a2266df4f7540d0d48797da5f3df3c
 ```
